@@ -4,15 +4,13 @@
 
 In a modern Security Operations Center (**SOC**), detecting suspicious activity is only the beginning. A SOC analyst must also properly document findings, escalate serious threats, and communicate effectively with senior analysts and other teams.
 
-This TryHackMe room focuses on three critical SOC L1 analyst skills:
+This room focuses on three critical SOC L1 analyst skills:
 
 * Alert Reporting
 * Alert Escalation
 * SOC Communication
 
 These are the exact workflows that help organizations detect, investigate, and respond to cyber threats efficiently. 🛡️
-
-Lab Link: [https://tryhackme.com/room/socl1alertreporting/](https://tryhackme.com/room/socl1alertreporting/) 
 
 ---
 
@@ -108,7 +106,7 @@ This reporting structure keeps investigations organized and easy to understand.
 The SOC dashboard showed that a sensitive document had been leaked by:
 
 ```text id="slv7ch"
-m.boslan@tryhackme.thm
+m.boslan
 ```
 
 We reviewed the alert details to identify the affected user and understand the suspicious activity tied to the document exposure.
@@ -172,7 +170,7 @@ Once the report was submitted successfully, the platform generated the following
 ## PAYLOAD
 
 ```text id="v7wlto"
-THM{nice_attempt_faking_microsoft_support}
+{nice_attempt_faking_microsoft_support}
 ```
 
 ![](SOCJr6/2.png)
@@ -247,7 +245,7 @@ This ensures the L2 analyst immediately understands:
 * Why escalation is necessary
 
 ```text id="4lfkz9"
-THM{looks_like_webshell_via_old_exchange}
+{looks_like_webshell_via_old_exchange}
 ```
 
 ![](SOCJr6/3.png)
@@ -261,7 +259,7 @@ After completing the investigation and escalation workflow, the room generated t
 ## PAYLOAD
 
 ```text id="4lfkz9"
-THM{looks_like_webshell_via_old_exchange}
+{looks_like_webshell_via_old_exchange}
 ```
 
 ![](SOCJr6/4.png)
